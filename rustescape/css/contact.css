@@ -1,0 +1,175 @@
+*{
+  margin:0;
+  padding:0;
+}
+iframe{
+  margin-left:15%;
+  margin-top:1%;
+  width:1050;
+  height:450;
+}
+.contacts{
+  width:100%;
+  height:100%;
+}
+.tc{
+  text-align:right;
+  margin-right:15%;
+  margin-top:2%;
+  font-size:35px;
+  color:black;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+.contact{
+  text-align:right;
+  letter-spacing: 2px;
+  line-height: 1.3;
+  margin-top:-9%;
+  margin-right:15%;
+  font-size:18px;
+  color:gray;
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+.ci{
+  margin-left:15%;
+  height:auto;
+  width:400px;
+}
+@media only screen and (max-width:1300px){
+  iframe{
+    margin-left:10%;
+  }
+  .tc{
+    margin-right:7%;
+  }
+  .contact{
+    margin-right:7%;
+    margin-top:-10%;
+  }
+  .ci{
+    margin-left:10%;
+  }
+}
+@media only screen and (max-width:1200px){
+  iframe{
+    margin-left:10%;
+    width:900;
+  }
+  .contact{
+    margin-right:7%;
+    margin-top:-12%;
+  }
+}
+@media only screen and (max-width:1100px){
+  iframe{
+    margin-left:5%;
+    width:900;
+  }
+  .ci{
+    margin-left:7%;
+  }
+  .contact{
+    margin-top:-12%;
+    margin-right:5%;
+    font-size:15px;
+  }
+  .tc{
+    margin-right:5%;
+  }
+}
+@media only screen and (max-width:1000px){
+  iframe{
+    width:800;
+  }
+  .ci{
+    margin-left:5%;
+    width:350px;
+  }
+
+}
+@media only screen and (max-width:900px){
+  iframe{
+    width:700;
+  }
+  .contact{
+    font-size:13px;
+  }
+  .ci{
+    width:300px;
+  }
+}
+@media only screen and (max-width:800px){
+  iframe{
+    width:600;
+  }
+  .tc{
+    font-size:32px;
+  }
+  .contact{
+    font-size:11px;
+  }
+  .ci{
+    width:250px;
+  }
+}
+@media only screen and (max-width:700px){
+  iframe{
+    width:530;
+  }
+  .tc{
+    font-size:27px;
+  }
+  .contact{
+    margin-top:-10%;
+    margin-right:4%;
+    font-size:10px;
+  }
+  .ci{
+    margin-top:1%;
+    width:200px;
+  }
+}
+@media only screen and (max-width:600px){
+  iframe{
+    width:440;
+  }
+  .contacts{
+    height:80%;
+  }
+  .tc{
+    font-size:21px;
+    text-align:center;
+  }
+  .contact{
+    margin-top:1%;
+    text-align:center;
+    font-size:15px;
+  }
+  .ci{
+    display:none;
+  }
+}
+@media only screen and (max-width:500px){
+  .contacts{
+    width:100%;
+    height:90%;
+  }
+  iframe{
+    width:340;
+  }
+}
+@media only screen and (max-width:400px){
+  iframe{
+    width:250;
+  }
+  .contact{
+    margin-top:1%;
+    text-align:center;
+    font-size:10px;
+  }
+}
+@media only screen and (max-width:300px){
+body{
+  display:none;
+}
+}
