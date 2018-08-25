@@ -3,7 +3,7 @@
 		padding:0;
 	}
 	body{
-		
+		background:#222222;
 	}
 	hr{
 		width:70%;
@@ -31,12 +31,12 @@
 		transform: scale(1.2);
 		color:gray;
 	}
-	.menu img{
+	.passive{
 		margin-top:25%;
 		margin-left:10%;
 		width:20%;
 	}
-	.menu h5{
+	.c{
 		font-size:12px;
 		font-family:'Montserrat',sans-serif;
 		margin-top:1%;
@@ -46,6 +46,9 @@
 	}
 	.active{
 		border:2px solid gray;
+		margin-top:25%;
+		margin-left:10%;
+		width:20%;
 	}
 	.m{
 		margin-top:60%;
@@ -100,15 +103,17 @@
 		display: initial;
 	}
 		nav { 
-		margin-top:10%;
+	margin-top:10%;
 	width: 100%; 
 	text-align: center;
 	 }
-	nav a { 
+	.navy {
+	text-decoration:none;
 	display: block; 
 	padding: 15px 0;
-	border-bottom: 1px solid black;
-	color: black;
+	border-bottom: 1px solid white;
+	font-family:'Montserrat',sans-serif;
+	color:white;
 	}
 	nav a:hover {
 	background: black;
@@ -127,7 +132,7 @@
 	width: 240px;
 	height: 100%;
 	position: absolute;
-	background:#F9F9F9;
+	background:#222222;
 	left: -240px;
 	transition: all .3s ease-in-out;
 	-webkit-transition: all .3s ease-in-out;
@@ -136,20 +141,16 @@
 	}
 	.navigation-icon {
 		padding: 10px 20px;
-		color: black;
+		color: #f9f9f9;
 		cursor: pointer;
 		margin-top: 4px;
 	}
 	.navigation-icon:hover {
 		padding: 10px 20px;
-		color: grey;
+		color: £f9f9f9;
 		cursor: pointer;
 		float: left;
 		margin-top: 4px;
-	}
-	.navigation img{
-		height:75px;
-		width:auto;
 	}
 	#navigation { 
 	display: none;
@@ -158,5 +159,4 @@
 	position: absolute; 
 	left: 0;
 	 }
-}
 }
