@@ -6,7 +6,6 @@
   background: linear-gradient(rgba(0,0,50,0.4) , rgba(0,0,50,0.4)),url('../images/sencu.jpg');
   background-attachment:fixed;
   background-size:cover;
-  background-position: center;
   height:120%;
  }
  hr{
