@@ -68,10 +68,9 @@
 		background-attachment:fixed;
 		background-size:cover;
 	}
-		.main iframe{
-		width:250px;
+	.main iframe{
 		margin-top:5%;
-		margin-left:5%;
+		margin-left:35%;
 	}
 	nav{
 		display:none;
@@ -96,9 +95,10 @@
 	label{
 		display: initial;
 	}
-	.main iframe{
+		.main iframe{
+		width:250px;
 		margin-top:5%;
-		margin-left:1%;
+		margin-left:5%;
 	}
 		nav { 
 	margin-top:10%;
