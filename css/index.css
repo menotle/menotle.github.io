@@ -95,6 +95,10 @@
 	label{
 		display: initial;
 	}
+	.main iframe{
+		margin-top:5%;
+		margin-left:1%;
+	}
 		nav { 
 	margin-top:10%;
 	width: 100%; 
