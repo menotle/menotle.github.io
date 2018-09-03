@@ -233,7 +233,7 @@ transform:scale(1.1);
  }
   body{
   background: linear-gradient(rgba(0,0,50,0.4) , rgba(0,0,50,0.4)),url(../images/sencu.jpg);
-  background-size:cover;
+  background-attachment:fixed;
   height:120%;
  }
   .reviews{
