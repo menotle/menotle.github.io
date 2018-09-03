@@ -23,7 +23,7 @@
   text-align:center;
   font-size:21px;
   color:#f9f9f9;
-  font-family:'Montserrat',sans-serif;
+  font-family:"Lucida Console", Monaco, monospace;
   transition: transform .7s;
  }
  .menu a{
@@ -83,7 +83,7 @@
  }
  .d{
   text-transform: lowercase;
-  font-family:'Oswald',sans-serif;
+  font-family:sans-serif;
   margin-top:1%;
   text-align:center;
   font-size:18px;
@@ -92,7 +92,7 @@
  .reviews{
  float:right;
  width:100%;
- height:100%;
+ height:110%;
  }
  .reviews iframe{
  margin-top:5%;
@@ -117,9 +117,54 @@
   border:1px solid gray;
   border-collapse:collapse;
   font-size:18px;
-  font-family:Arial;
+  font-family:Monotype Corsiva, Times, Serif;
   cursor:pointer;
  }
+ .food{
+ float:right;
+ height:130%;
+ width:100%;
+ }
+ .food img{
+ margin-top:-3%;
+ width:25%;
+ height:auto;
+ margin-left:25%;
+ border-radius:21px;
+ }
+ .food h1{
+ margin-top:5%;
+ margin-left:55%;
+ color:white;
+ font-size:42px;
+ color:#f9f9f9; 
+ font-family:"Lucida Console", Monaco, monospace;
+ }
+ .food h2{
+ margin-top:-5%;
+ margin-left:55%;
+ color:white;
+ font-size:48px;
+ }
+ .gallery{
+ float:left;
+ height:50%;
+ width:100%;
+ }
+ .img{
+text-align:right;
+margin:10px 50px;
+}
+.img img{
+width:230px;
+padding:5px;
+filter:grayscale(100%);
+transition:1s;
+}
+.img img:hover{
+filter:grayscale(0);
+transform:scale(1.1);
+}
  nav{
   display:none;
  }
@@ -136,8 +181,8 @@
  display:none;
  }
  @media only screen and (max-width:700px){
-   body{
- background: linear-gradient(rgba(0,0,50,0.4) , rgba(0,0,50,0.4)),url(../images/sencu.jpg);	 
+.gallery{
+ height:110%;
  }
  .dwh{
  display:none;
@@ -168,6 +213,29 @@
   width: 100%; 
   text-align: center;
  }
+ .food{
+ height:100%;
+ }
+ .food img{
+ margin-left:15%; 
+ }
+ .food img:hover{
+ transition:1.0s;
+ transform:scale(2.5);
+ }
+ .food h1{
+ font-size:32px;
+ margin-left:45%;
+  }
+ .food h2{
+ font-size:42px;
+ margin-left:50%;
+ }
+  .reviews{
+ float:right;
+ width:100%;
+ height:200%;
+ }
  .reviews iframe{
  margin-left:5%;
  }
@@ -176,7 +244,7 @@
   display: block; 
   padding: 15px 0;
   border-bottom: 1px solid white;
-  font-family:'Montserrat',sans-serif;
+  font-family:"Lucida Console", Monaco, monospace;
   color:white;
  }
  nav a:hover {
