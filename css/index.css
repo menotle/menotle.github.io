@@ -232,7 +232,7 @@ transform:scale(1.1);
  margin-left:50%;
  }
   body{
-  background: linear-gradient(rgba(0,0,50,0.4) , rgba(0,0,50,0.4)),url(../images/sencu.jpg);
+  background:gray;
   height:120%;
  }
   .reviews{
