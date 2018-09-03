@@ -213,6 +213,11 @@ transform:scale(1.1);
   width: 100%; 
   text-align: center;
  }
+   body{
+  background: linear-gradient(rgba(0,0,50,0.4) , rgba(0,0,50,0.4)),url(../images/sencu.jpg);
+  background-size:cover;
+  height:120%;
+ }
  .food{
  height:100%;
  }
