@@ -257,7 +257,7 @@ transform:scale(1.1);
   text-align: center;
  }
  .food{
- height:100%;
+ height:70%;
  }
  .food img{
  margin-left:15%; 
@@ -281,7 +281,7 @@ transform:scale(1.1);
   .reviews{
  float:right;
  width:100%;
- height:200%;
+ height:220%;
  }
  .reviews iframe{
  margin-left:5%;
