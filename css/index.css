@@ -138,9 +138,10 @@
  color:white;
  font-size:42px;
  color:#f9f9f9; 
- font-family:"Lucida Console", Monaco, monospace;
+ font-family: 'Archive';
  }
  .food h2{
+ font-family: 'Archive';
  margin-top:-5%;
  margin-left:45%;
  color:white;
