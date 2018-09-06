@@ -153,13 +153,12 @@
  width:100%;
  }
  .img{
-text-align:right;
-margin:10px 50px;
+margin-left:20%;
 }
 .img img{
 width:230px;
 padding:5px;
-filter:grayscale(100%);
+filter:grayscale(50%);
 transition:1s;
 }
 .img img:hover{
