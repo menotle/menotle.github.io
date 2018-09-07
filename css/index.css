@@ -47,7 +47,7 @@
   color:gray;
  }
  .dwh{
- margin-left:25%;
+ margin-left:35%;
  }
  .active{
   border:2px solid gray;
@@ -178,7 +178,6 @@ transform:scale(1.1);
   display:none;
  }
  .dwh{
- margin-left:25%;
  display:initial;
  }
  .mwh{
@@ -208,19 +207,94 @@ transform:scale(1.1);
  margin-left:20%;
  margin-top:3%;
  }
- @media only screen and (max-width:700px){
+  @media only screen and (max-width:900px){
+ .main h1{
+ text-align:center;
+ font-size:42px;
+ }
+ .main iframe{
+ margin-left:65%;
+ }
+.menu h2{
+ font-size:15px;
+ }
+ .d{
+ margin-left:45%;
+ }
+ .reviews iframe{
+ margin-left:45%;
+ }
+ .food{
+	 margin-top:150%;
+ }
+ .food img{
+ margin-left:45%;
+ }
+ .food h1{
+ margin-left:70%;
+ }
+ .food h2{
+ margin-left:70%;
+ }
+ .contacts{
+ margin-top:35%;
+ }
+ .contacts h2{
+ font-size:21px;
+ margin-left:25%;
+ }
+ .contacts h4{
+ margin-top:5%;
+ margin-left:35%;
+ }
+ .share{
+ margin-left:45%;
+ }
+ .maps{
+ margin-top:5%;
+ float:left;
+ }
+ .gallery{
+ margin-left:20%;
+ margin-top:100%;
+ }
+ .c{
+ font-size:11px;
+ }
+ .dwh{
+ margin-left:15%;
+ }
+ table{
+ width:90%;
+ margin-left:30%;
+ }
+  table , tr , th , td {
+  padding:20px;
+  color:white;
+  border:1px solid gray;
+  border-collapse:collapse;
+  font-size:12px;
+  font-family:'Montserrat',sans-serif;
+  cursor:pointer;
+ }
+  }
+@media only screen and (max-width:450px){
  .contacts{
   height:135%;
  }
  .contacts h4{
+ margin-left:10%;
  margin-top:3%;
  }
  .contacts h2{
  font-family:'Oswald',sans-serif;
  color:white;
  font-size:15px;
- margin-left:5%;
+ text-align:center;
  margin-top:3%;
+ }
+ .share{
+ margin-left:35%;
  }
   .maps{
  display:none;
@@ -229,7 +303,7 @@ transform:scale(1.1);
  display:initial;
  }
  .mmaps{
- margin-left:5%;
+ margin-left:15%;
  }
 .gallery{
  height:110%;
@@ -238,7 +312,6 @@ transform:scale(1.1);
  display:none;
  }
  .mwh{
- margin-left:15%;
  display:initial;
  }
  .menu{
@@ -262,22 +335,26 @@ transform:scale(1.1);
   text-align: center;
  }
  .food{
+ margin-top:10%;
  height:135%;
  }
  .food img{
    margin-top:-10%;
  border-radius:0;
- margin-left:7%;
+ margin-left:20%;
  width:35%;
  }
  .food h1{
  font-size:32px;
- margin-left:45%;
+ margin-left:60%;
   }
  .food h2{
   margin-top:-10%;
  font-size:42px;
- margin-left:50%;
+ margin-left:60%;
+ }
+ .d{
+ margin-left:20%;
  }
   body{
   background: linear-gradient(rgba(0,0,50,0.4) , rgba(0,0,50,0.4)),url(../images/sencu.jpg);
@@ -289,7 +366,7 @@ transform:scale(1.1);
  height:245%;
  }
  .reviews iframe{
- margin-left:5%;
+ margin-left:10%;
  }
  .navy {
   text-decoration:none;
@@ -310,7 +387,14 @@ transform:scale(1.1);
   margin-left:20%;
  }
  .main iframe{
-  margin-left:35%;
+  margin-left:45%;
+ }
+ .gallery{
+ margin-top:10%;
+ margin-left:7%;
+ }
+  table{
+ margin-left:10%;
  }
  .navigation {
   width: 240px;
