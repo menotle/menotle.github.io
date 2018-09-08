@@ -225,11 +225,7 @@ transform:scale(1.1);
  margin-left:45%;
  }
  .food{
- margin-top:150%;
- }
- body{
- background: linear-gradient(rgba(0,0,50,0.4) , rgba(0,0,50,0.4)),url(../images/sencu.jpg);
- height:120%;
+	 margin-top:150%;
  }
  .food img{
  margin-left:45%;
@@ -264,6 +260,10 @@ transform:scale(1.1);
  }
  .c{
  font-size:11px;
+ }
+ body{
+  background: linear-gradient(rgba(0,0,50,0.4) , rgba(0,0,50,0.4)),url(../images/sencu.jpg);
+  height:120%;
  }
  .dwh{
  margin-left:15%;
@@ -385,13 +385,13 @@ transform:scale(1.1);
   color: #fff;
  }
  .s{
-  margin-left:20%;	 
+  margin-left:50px;	 
  }
  .k{
-  margin-left:20%;
+  margin-left:50px;
  }
  .main iframe{
-  margin-left:45%;
+  margin-left:40%;
  }
  .gallery{
  margin-top:10%;
