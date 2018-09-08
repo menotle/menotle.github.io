@@ -208,11 +208,6 @@ transform:scale(1.1);
  margin-top:3%;
  }
   @media only screen and (max-width:900px){
- body{
-  background: linear-gradient(rgba(0,0,50,0.4) , rgba(0,0,50,0.4)),url(../images/sencu.jpg);
-  background-attachment:fixed;
-  height:120%;
- }	  
  .main h1{
  text-align:center;
  font-size:42px;
@@ -230,7 +225,11 @@ transform:scale(1.1);
  margin-left:45%;
  }
  .food{
-	 margin-top:150%;
+ margin-top:150%;
+ }
+ body{
+ background: linear-gradient(rgba(0,0,50,0.4) , rgba(0,0,50,0.4)),url(../images/sencu.jpg);
+ height:120%;
  }
  .food img{
  margin-left:45%;
@@ -295,11 +294,11 @@ transform:scale(1.1);
  font-family:'Oswald',sans-serif;
  color:white;
  font-size:15px;
- text-align:center;
+ margin-left:15%;
  margin-top:3%;
  }
  .share{
- margin-left:35%;
+ margin-left:30%;
  }
   .maps{
  display:none;
