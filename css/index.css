@@ -225,7 +225,7 @@ transform:scale(1.1);
  margin-left:45%;
  }
  .food{
-	 margin-top:150%;
+ margin-top:150%;
  }
  .food img{
  margin-left:45%;
@@ -263,6 +263,7 @@ transform:scale(1.1);
  }
  body{
   background: linear-gradient(rgba(0,0,50,0.4) , rgba(0,0,50,0.4)),url(../images/sencu.jpg);
+  background-attachment:fixed;
   height:120%;
  }
  .dwh{
