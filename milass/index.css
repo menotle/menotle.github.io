@@ -77,6 +77,8 @@ width:100%;
   font-family:"Trebuchet MS", Helvetica, sans-serif;
   font-weight: lighter;
   text-transform:lowercase;
+  animation-duration: 3s;
+  animation-name: cc;
   color:darkgray;
 }
 .tagline1{
@@ -84,20 +86,37 @@ width:100%;
   font-size:18px;
   font-family:"Trebuchet MS", Helvetica, sans-serif;
   font-weight: lighter;
+  animation-duration: 2s;
+  animation-name: appear;
   color:gray;
 }
 
-@keyframes text{
+@keyframes cc{
  0%{
- margin-bottom:-40%;
+ margin-left:-10%;
  color:white;
  }
- 30%{
- letter-spacing:12px;
- margin-bottom:-40%;
+ 15%{
+ color:white;
  }
-
+ 50%{
+ color:#A44BA5;
 }
+}
+@keyframes appear {
+ 0%{
+  margin-top:-5%;
+  color:white;
+ }
+ 50%{
+  color:white;
+ }
+ 100%{
+ margin-top:0%;
+ color:gray;
+ }
+}
+
 
 .footer{
   width:100%;
