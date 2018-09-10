@@ -1,0 +1,99 @@
+
+ @media only screen and (max-width:1000px){
+   .header img{
+     width:15%;
+     margin-left:20%;
+    }
+ }
+
+
+ @media only screen and (max-width:800px){
+   .header img{
+     margin-left:25%;
+    }
+ }
+
+ @media only screen and (max-width:700px){
+   .header img{
+     margin-left:30%;
+    }
+ }
+
+ @media only screen and (max-width:600px){
+   .header img{
+     margin-left:35%;
+    }
+    .footer h1{
+      margin-left:40%;
+    }
+ }
+
+ @media only screen and (max-width:450px){
+   .header img{
+     width:30%;
+     margin-left:35%;
+    }
+    .s1{
+      margin-left:20%;
+      margin-top:10%;
+      display:inline-block;
+    }
+    .s3{
+      margin-left:20%;
+      margin-top:1%;
+      display:inline-block;
+    }
+    .tagline{
+      margin-left:20%;
+    }
+    .tagline1{
+      margin-left:50%;
+    }
+    .portfolio{
+      display:none;
+    }
+    .mobile_portfolio{
+      display:initial;
+    }
+    .mobile_portfolio img{
+      margin-left:20%;
+      margin-top:10%;
+      width:60%;
+      height:auto;
+    }
+ }
+
+ @media only screen and (max-width:400px){
+   .s1{
+     margin-left:15%;
+     margin-top:10%;
+     display:inline-block;
+   }
+   .s3{
+     margin-left:15%;
+     margin-top:1%;
+     display:inline-block;
+   }
+   .tagline{
+     margin-left:15%;
+   }
+    .tagline1{
+      margin-left:45%;
+    }
+ }
+
+ @media only screen and (max-width:400px){
+   .header img{
+     width:40%;
+     margin-left:30%;
+    }
+ }
+
+@media only screen and (max-width:350px){
+  .s1{
+    margin-left:10%;
+  }
+  .s3{
+    margin-left:10%;
+  }
+}
