@@ -56,10 +56,15 @@
       display:initial;
     }
     .mobile_portfolio img{
-      margin-left:20%;
-      margin-top:10%;
       width:60%;
-      height:auto;
+      margin-left:20%;
+    }
+    .work{
+      margin-top:10%;
+
+    }
+    .shelf{
+      margin-top:-1%;
     }
  }
 
