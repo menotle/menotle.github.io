@@ -7,6 +7,9 @@
   height:2px;
   background:purple;
  }
+ body{
+   height:150%;
+ }
 
 .header{
   width:100%;
@@ -32,6 +35,13 @@ width:100%;
 }
 .left{
   margin-top:10%;
+  margin-left:15%;
+}
+.middle_right_shelf{
+  margin-left:5%;
+}
+.left_shelf{
+  margin-top:-1%;
   margin-left:15%;
 }
 .mobile_portfolio{
