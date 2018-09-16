@@ -44,10 +44,9 @@ br{
 @media only screen and (max-width:450px){
   .content{
     background:url('../images/mobile_background.jpg');
-     background-size: attributume;
     margin-left:0%;
     width:100%;
-    height:100%;
+    height:60%;
     border:none;
     border-bottom-right-radius:0px;
     border-bottom-left-radius:0px;
